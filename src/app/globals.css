@@ -2,24 +2,28 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #1a1a2e;
-  --navy: #1a1a2e;
-  --navy-light: #16213e;
-  --gold: #c9a84c;
-  --gold-light: #d4b96a;
-  --slate: #64748b;
-  --light-gray: #f8f9fa;
+  --foreground: #0f0f1a;
+  --dark: #0f0f1a;
+  --dark-light: #1a1a2e;
+  --accent-1: #6366f1;
+  --accent-2: #8b5cf6;
+  --accent-3: #06b6d4;
+  --muted: #71717a;
+  --light-gray: #fafafa;
+  --border: #e4e4e7;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-navy: var(--navy);
-  --color-navy-light: var(--navy-light);
-  --color-gold: var(--gold);
-  --color-gold-light: var(--gold-light);
-  --color-slate: var(--slate);
+  --color-dark: var(--dark);
+  --color-dark-light: var(--dark-light);
+  --color-accent-1: var(--accent-1);
+  --color-accent-2: var(--accent-2);
+  --color-accent-3: var(--accent-3);
+  --color-muted: var(--muted);
   --color-light-gray: var(--light-gray);
+  --color-border: var(--border);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
